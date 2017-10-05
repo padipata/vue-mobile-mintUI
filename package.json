@@ -1,0 +1,41 @@
+{
+  "name": "projectName",
+  "description": "A Vue.js project template",
+  "version": "1.0.0",
+  "author": "彭俊豪 <18814002160@163.com>",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot -w --debug  --progress --host 0.0.0.0 --port=3000",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "mint-ui": "^2.2.9",
+    "mysql2": "^1.2.0",
+    "sha1": "^1.1.1",
+    "urlencode": "^1.1.0",
+    "vue": "^2.4.4",
+    "vue-awesome-swiper": "^2.6.4",
+    "vuex": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-component": "^0.9.1",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
