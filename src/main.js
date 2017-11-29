@@ -2,14 +2,15 @@ import Vue from 'vue'
 import VueRouter from './jslib/vue-router'
 import routes from './routes'
 import $ from 'jquery'
-import store from './store'
 import MintUI from 'mint-ui'
-import 'mint-ui/lib/style.css'
+import './assets/js/LArea.min'
 
+import 'mint-ui/lib/style.css'
+import './assets/css/LArea.min.css'
 
 window.$ = $
 
-require('./jslib/UIAdapter')
+require('./jslib/UIAdapter');
 
 Vue.use(VueRouter);
 Vue.use(MintUI);
@@ -20,5 +21,4 @@ const router = new VueRouter({
 
 new Vue({
     router,
-    store
 }).$mount('#app');

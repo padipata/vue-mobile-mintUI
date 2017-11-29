@@ -337,7 +337,7 @@
                 data.on = on
                 data.attrs = { href: href }
             } else {
-                // find the first <a> child and apply listener and href
+                // find the home <a> child and apply listener and href
                 var a = findAnchor(this.$slots.default)
                 if (a) {
                     // in case the <a> is a static node

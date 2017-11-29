@@ -1,5 +1,4 @@
 import App from './App.vue'
-import index from './vuepage/components/first/First.vue'
 import home from './vuepage/components/home/Home.vue'
 
 const routes = [
@@ -8,19 +7,14 @@ const routes = [
         children: [
             {
                 path: '',
-                redirect: '/index'
+                redirect: '/home'
             },
             {
-                path: '/index',
-                component: index,
-                children: [
-                    {
-                        path: '',
-                        redirect: '/home'
-                    }
-                ]
+                path: '/home',
+                component: home
             }
         ]
     }
-]
+];
+
 export default routes;

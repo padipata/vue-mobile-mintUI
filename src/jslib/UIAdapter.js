@@ -5,7 +5,7 @@
             var clientWidth = docEl.clientWidth;
             if (!clientWidth) return;
             docEl.style.fontSize = clientWidth / 7.5 + 'px';
-            console.log('clientWidth:' + clientWidth)
+            console.log('clientWidth:' + clientWidth);
             console.log('fontSizeIs:' + docEl.style.fontSize)
         };
     if (!doc.addEventListener) return;
