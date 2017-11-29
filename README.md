@@ -14,3 +14,19 @@
 2017-09-28 | 增加mint-ui组件库，并添加style-loader和css-loader到webpack中 | ^2.2.9
 2017-09-28 | 引入css-loader & style-loader
 2017-09-28 | 引入地区联动插件LArea | 按项目需求取舍
+
+
+### 安装与运行
+
+```
+git clone https://github.com/padipata/vue-template.git
+
+cd vue-music
+
+cnpm i
+
+npm run dev //服务端运行 访问 http://localhost:8080
+
+npm run build 项目打包 
+
+感兴趣的童鞋可以来个star
