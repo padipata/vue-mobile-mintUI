@@ -10,7 +10,7 @@
 2017-09-20 | 配置vue-router
 2017-09-25 | 增加vue轮播插件 vue-awesome-swiper | ^2.6.4
 2017-09-26 | 增加jquery，并引入全局变量 | ^3.2.1
-~~ 2017-09-27 ~~ | ~~ Vuex状态管理 ~~ | ~~ ^2.2.9 ~~
+~~2017-09-27~~ | ~~Vuex状态管理~~ | ~~^2.2.9~~
 2017-09-28 | 增加mint-ui组件库，并添加style-loader和css-loader到webpack中 | ^2.2.9
 2017-09-28 | 引入css-loader & style-loader
 2017-09-28 | 引入地区联动插件LArea | 按项目需求取舍
