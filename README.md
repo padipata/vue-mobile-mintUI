@@ -26,7 +26,7 @@
 ```
 git clone https://github.com/padipata/vue-template.git
 
-cd vue-music
+cd vue-template
 
 cnpm i
 
