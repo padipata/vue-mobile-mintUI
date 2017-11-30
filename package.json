@@ -17,8 +17,7 @@
     "mint-ui": "^2.0.4",
     "urlencode": "^1.1.0",
     "vue": "^2.4.4",
-    "vue-awesome-swiper": "^2.6.4",
-    "vue-swipe": "^2.0.3"
+    "vue-awesome-swiper": "^2.6.4"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
