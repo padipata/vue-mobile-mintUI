@@ -19,6 +19,7 @@
 2017-11-30 | 引入 sha1 加密插件 | ^1.1.1
 2017-11-30 | 引入 URLEncode 加/解码插件 | ^1.1.0
 2017-11-30 | 引入 axios 并配置 HttpRequest.js 文件 | ^0.16.1
+2017-12-01 | 引入 sass 并配置 webpack | 使用方式：在style中声明 lang="sass"
 
 
 ## 安装与运行
@@ -35,3 +36,4 @@ npm run dev //服务端运行 访问 http://localhost:8080
 npm run build 项目打包 
 
 感兴趣的童鞋可以来个star
+```
