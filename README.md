@@ -20,18 +20,19 @@
 2017-11-30 | 引入 URLEncode 加/解码插件 | ^1.1.0
 2017-11-30 | 引入 axios 并配置 HttpRequest.js 文件 | ^0.16.1
 2017-12-01 | 引入 sass 并配置 webpack | 使用方式：在style中声明 lang="sass"
+2018-1-30 | 添加路由懒加载 | 
 
 
 ## 安装与运行
 
 ```
-git clone https://github.com/padipata/vue-template.git
+git clone https://github.com/padipata/vue-mobile-template.git
 
-cd vue-template
+cd vue-mobile-template
 
 cnpm i
 
-npm run dev //服务端运行 访问 http://localhost:8080
+npm run dev //服务端运行 访问 http://localhost:8081
 
 npm run build 项目打包 
 
