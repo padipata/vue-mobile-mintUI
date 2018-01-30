@@ -1,20 +1,18 @@
 <template>
-   <div>
-       <router-view></router-view>
-   </div>
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
 
 <script>
-    export  default{
-        data(){
-            return{
+  //rem布局
+  import rem from './jslib/UIAdapter';
 
-            }
-        }
-    }
+  export default {
+    name: 'app'
+  }
 </script>
 
-<style scoped>
-    /*@import "../node_modules/mint-ui/lib/style.min.css";*/
-    /*@import "../node_modules/vue-swipe/dist/vue-swipe.css";*/
+<style>
+
 </style>

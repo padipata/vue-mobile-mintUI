@@ -1,11 +1,9 @@
 /**
- *
+ * Created by Padipata on 2018/1/30.
  */
 import axios from 'axios'
-import utils from '../jslib/utils'
 
 export default axios.create({
-    baseURL: 'http://localhost/',
-    timeout: 20000,
-    headers: {'token': utils.getToken()},
+  // baseURL: 'http://localhost/',
+  timeout: 20000,
 })
